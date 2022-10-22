@@ -49,7 +49,7 @@ main {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url("../assets/yago.png");
+    background-image: url("../assets/yago.jpg");
     background-size: cover;
     color: rgb(48, 48, 48);
     text-transform: uppercase;
