@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100vw;
+    overflow-x:  hidden;
+}
+html {
+    font-family: 'Lato', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 16px;
+    height: 4rem;
+    background-color: transparent;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.navbar a {
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    margin: 10px 30px;
+}
+.navbar a:hover {
+    opacity: 0.8;
+}
+.right {
+    justify-content: flex-end;
+}
+main {
+    background-color:rgb(255, 255, 255);
+}
+.presentation-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("/assets/yago.png");
+    background-size: cover;
+    color: rgb(48, 48, 48);
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.presentation-text-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 253, 253);
+    padding: 3rem 1rem 3rem 1rem;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 3px black;
+}
+h1 {
+    font-size: 1.5rem;
+}
+.presentation-container h2 {
+    margin: 1rem 2rem 1.5rem 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(0, 102, 204);
+}
+.presentation-text-container cite {
+    text-transform: capitalize;
+    font-size: 0.9rem;
+    width: 85%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: rgb(87, 87, 87);
+}
+.primary-button {
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    background-color: rgb(0, 102, 204);
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    box-shadow: 1px 2px 2px black;
+}
+.primary-button:hover {
+    opacity: 0.8;
+
+}
+.projects-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: rgb(29, 29, 31);
+}
+.projects-container-title {
+    color: white;
+    margin: 6rem 0 4rem 0;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+.project {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 90%;
+    font-size: 50px;
+    background-color: rgb(29, 29, 31);
+    color: rgb(245, 245, 245);
+    cursor: pointer;
+    max-width: 1500px;
+    border-bottom: 1px solid white;
+}
+.project:last-child {
+    border-bottom: none;
+}
+.project h6 {
+    font-size: 1.5rem;
+    color: rgb(0, 102, 204);
+}
+.project img {
+    width: 100%;
+    height: 100%;
+}
+.primary-button-mini {
+    background-color: transparent;
+    top: 840px;
+    border: none;
+    border-radius: 30px;
+    width: 120px;
+    height: 25px;
+    cursor: pointer;
+    color: rgb(0, 102, 204);
+    font-size: 1.1rem;
+    margin-top: 1.1rem;
+}
+
+.primary-button p:hover {
+    opacity: 0.8;
+}
+
+footer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+}
