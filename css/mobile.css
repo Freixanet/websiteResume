@@ -20,26 +20,6 @@ header {
     height: 4rem;
     background-color: transparent;
 }
-.navbar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 50%;
-    height: 100%;
-    list-style: none;
-    background-color: rgba(0, 0, 0, 0.9);
-}
-.navbar a {
-    color: rgb(245, 245, 245);
-    text-decoration: none;
-    margin: 10px 30px;
-}
-.navbar a:hover {
-    opacity: 0.8;
-}
-.right {
-    justify-content: flex-end;
-}
 main {
     background-color:rgb(255, 255, 255);
 }
@@ -70,7 +50,7 @@ h1 {
     font-size: 1.5rem;
 }
 .presentation-container h2 {
-    margin: 1rem 2rem 1.5rem 2rem;
+    margin: .5rem 2rem 1.5rem 2rem;
     font-size: 1rem;
     font-weight: 400;
     color: rgb(0, 102, 204);
